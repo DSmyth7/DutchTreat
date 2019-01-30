@@ -5,6 +5,29 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\css\bootstrap\**" />
+    <Compile Remove="wwwroot\fonts\font-awesome\**" />
+    <Compile Remove="wwwroot\js\jquery-validation-unobtrusive\**" />
+    <Compile Remove="wwwroot\js\jquery-validation\**" />
+    <Compile Remove="wwwroot\js\jquery\**" />
+    <Content Remove="wwwroot\css\bootstrap\**" />
+    <Content Remove="wwwroot\fonts\font-awesome\**" />
+    <Content Remove="wwwroot\js\jquery-validation-unobtrusive\**" />
+    <Content Remove="wwwroot\js\jquery-validation\**" />
+    <Content Remove="wwwroot\js\jquery\**" />
+    <EmbeddedResource Remove="wwwroot\css\bootstrap\**" />
+    <EmbeddedResource Remove="wwwroot\fonts\font-awesome\**" />
+    <EmbeddedResource Remove="wwwroot\js\jquery-validation-unobtrusive\**" />
+    <EmbeddedResource Remove="wwwroot\js\jquery-validation\**" />
+    <EmbeddedResource Remove="wwwroot\js\jquery\**" />
+    <None Remove="wwwroot\css\bootstrap\**" />
+    <None Remove="wwwroot\fonts\font-awesome\**" />
+    <None Remove="wwwroot\js\jquery-validation-unobtrusive\**" />
+    <None Remove="wwwroot\js\jquery-validation\**" />
+    <None Remove="wwwroot\js\jquery\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\index.html" />
   </ItemGroup>
 
@@ -17,6 +40,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\img\" />
+    <Folder Include="wwwroot\fonts\" />
   </ItemGroup>
 
 </Project>
